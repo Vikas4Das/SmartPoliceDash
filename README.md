@@ -1,7 +1,4 @@
-Here is your **complete, polished, professional, and beautifully formatted README.md** file for your Hackathon 2025 project.
-You can copy–paste directly into GitHub.
 
----
 
 # 🛡️ Smart Analytics Dashboard for Police Good Work Recognition
 
