@@ -1,0 +1,30 @@
+{
+  "name": "smart-police-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "1.4.0",
+    "chart.js": "^4.4.0",
+    "clsx": "1.2.1",
+    "jspdf": "^3.0.3",
+    "jspdf-autotable": "^5.0.2",
+    "leaflet": "1.9.4",
+    "lucide-react": "^0.553.0",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.14.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.14",
+    "gh-pages": "^6.3.0",
+    "postcss": "8.4.24",
+    "tailwindcss": "3.3.3",
+    "vite": "5.0.0"
+  }
+}

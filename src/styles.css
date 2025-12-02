@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global transitions */
+* { @apply transition-all duration-200 ease-in-out; }
+
+/* Background khaki -> deeper khaki */
+:root{
+  --khaki-1: #c7b48a;
+  --khaki-2: #b59e6d;
+  --police-red: #9A1B1B;
+  --gold: #D4AF37;
+  --navy: #1A1D2E;
+}
+
+/* body */
+body {
+  @apply min-h-screen;
+  background: linear-gradient(180deg,var(--khaki-1),var(--khaki-2));
+  color: var(--navy);
+}
+
+/* card */
+.card {
+  @apply bg-white/90 backdrop-blur-lg rounded-2xl p-6 shadow-2xl border border-white/30;
+}
+
+/* primary button */
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl text-white font-semibold;
+  background: linear-gradient(90deg,var(--police-red),#b32727);
+  box-shadow: 0 8px 20px rgba(154,27,27,0.18);
+}
+
+/* outline button */
+.btn-outline {
+  @apply px-4 py-2 rounded-xl border font-medium;
+  border-color: rgba(26,29,46,0.08);
+}
+
+/* sidebar */
+.sidebar {
+  background: linear-gradient(180deg, rgba(26,29,46,0.95), rgba(15,17,25,0.95));
+  color: white;
+}
+
+/* sidebar link active */
+.sidebar a.active {
+  background: linear-gradient(90deg, rgba(255,215,0,0.12), rgba(255,215,0,0.06));
+  color: var(--gold);
+  border-left: 4px solid var(--gold);
+  padding-left: 12px;
+}
